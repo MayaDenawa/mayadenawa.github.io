@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
+html body {
+    background-color: #f3f3f3;
+}
+
+.navbar a {
+    color: black;
+    
+}
+
+.navbar-toggler {
+    background-color: black;
+}
+  
+
+.navbar {
+    font-family: 'Poppins';
+    font-size : 24px;
+}
+
+.navbar-scrolled {
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: 500ms;
+}
+
+.carousel-item img {
+    height: 80%;
+    width: auto;
+}
+
+.profile-description {
+    display: grid;
+    height: auto;
+    max-width: 95%;
+    padding: 30px 0px;
+    border-radius: 40px;
+    margin: 40px;
+}
+.profile-description img {
+    height: 450px;
+    width: auto;
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+.profile-title {
+    font-family: 'Spectral';
+    font-size: 34px;
+    color: #a3aea7;
+}
+
+.profile-desc {
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #a3aea7;
+}
+
+
+
+
+.title-head {
+    font-family: 'Spectral';
+    font-size: 24px;
+    color: #a3aea7;
+}
+
+.title-head-lg {
+    font-family: 'Spectral';
+    font-size: 40px;
+    color: #a3aea7;
+}
+
+.desc {
+    font-family: 'PT Serif';
+    font-size: 14px;
+    color: #a3aea7;
+}
+
+.ratings i{
+    color:gold;
+}
+
+
+/* scroll down animation */
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Parallax Effect */
+
+.parallax-Service {
+    background-image: url("img/featured-blog/Featured-3.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.parallax-about {
+    background-image: url("img/Parallax/Parallax-AboutMe.jpg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-kayon {
+    background-image: url("img/featured-blog/Featured-1.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+/* Image */
+
+.landscape {
+    height: 300px;
+    width: auto;
+}
+
+.portrait {
+    height: 550px;
+    width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .landscape {
+        height: 230px;
+        width: auto;
+    }
+    .portrait {
+        height: auto;
+        width: 300px;
+    }
+    .testimonial {
+        display: none;
+    }
+
+    .product {
+        display: none;
+    }
+    
+}
+
+
